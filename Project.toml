@@ -1,0 +1,13 @@
+name = "example"
+uuid = "67dfda20-a38b-43b5-9679-bab301fe3fc0"
+authors = ["Salvatore Verde"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
